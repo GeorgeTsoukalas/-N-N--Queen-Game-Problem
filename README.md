@@ -25,7 +25,7 @@ The current records are:
 
 11: 112/121 ? best possible ?
 
-12:
+12: 132/144 ? best possible ? 
 
 13: 160/169 ? best possible ?
 

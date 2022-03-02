@@ -31,7 +31,7 @@ The current records are:
 
 14: 183/196 ? best possible ? 
 
-15:
+15: 212/225 ? best possible ?
 
 16:
 In general the algorithm thus far is not too inspired - just trying to improve by random choices with no backtracking or arc consistency checks. Will be adding more in the future.

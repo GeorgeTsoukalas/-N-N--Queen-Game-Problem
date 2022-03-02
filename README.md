@@ -4,15 +4,34 @@ When I was in high school I was given a puzzle from a teacher - given a 6 by 6 g
 
 The current records are:
 1: 1/1
+
 2: 2/4
+
 3: 6/9
+
 4: 13/16
+
 5: 25/25
+
 6: 32/36
+
 7: 44/49 ? Best possible ?
+
 8: 58/64 ? Best possible ?
+
 9: 74/81 ? Best possible ?
+
 10: 91/100 ? Best possible ?
+
 11: 112/121 ? best possible ?
 
+12:
+
+13: 160/169 ? best possible ?
+
+14: 183/196 ? best possible ? 
+
+15:
+
+16:
 In general the algorithm thus far is not too inspired - just trying to improve by random choices with no backtracking or arc consistency checks. Will be adding more in the future.

@@ -1,5 +1,3 @@
-
-   
 import math
 import random
 import copy
@@ -63,7 +61,7 @@ class Board:
             for j in range(gameSize):
                 sys.stdout.write(" " + str(self.board[i][j]) + " ")
             print("\n")
-Set = [-1] + [*range(gameSize)] + [*range(gameSize)] # weighting more towards putting actual entries in
+Set = [-1] + [*range(gameSize)] #+ [*range(gameSize)] # weighting more towards putting actual entries in
 board = [[-1 for x in range(gameSize)] for y in range(gameSize)]
 empty_spaces = [[x,y] for x in range(gameSize) for y in range(gameSize)]
 filled_spaces = [[] for x in range(gameSize)]
@@ -73,26 +71,22 @@ bad_configuration_length = 0
 game = Board(board, empty_spaces, filled_spaces, filled_count, bad_configurations, bad_configuration_length,[])
 meaningfulIterations = 0
 start_time = time.time()
-iterations = 100000
+iterations = 30000
 for i in range(iterations): # 2, 6, 13, 25, 32, 44?
-    if (i%1000 == 0):
+    if (i%10000 == 0):
         print(i)
     r = random.random()
     L = random.choice(Set)
     if (game.bad_configuration_length > 0): # wont work in the way I did it because I dont track which one is nonempty - O(n) to search
-        #if (r < 0.95):
-        #    if (L == -1):
-        #        T = random.choice(game.bad_configurations[0]) # since isvalid returns invalid PAIRs of pairs of points
-        #    else:
-        #        T = random.choice(game.bad_configurations[L]) #print(T)
-        #else:
+        concat_list = []
+        for i in game.bad_configurations:
+            concat_list+=concat_list+i
         if (r < 0.5):
-            if (L != -1):
-                T = random.choice(game.bad_configurations[random.choice(game.nonempty_bad_colors)])[0]
-            else:
-                T1 = random.choice(range(gameSize))
-                T2 = random.choice(range(gameSize))
-                T = [T1, T2]
+            T = random.choice(concat_list)[0]#T = random.choice(game.bad_configurations[random.choice(game.nonempty_bad_colors)])[0]
+        else:
+            T1 = random.choice(range(gameSize))
+            T2 = random.choice(range(gameSize))
+            T = [T1, T2]
     else:
         T1 = random.choice(range(gameSize))
         T2 = random.choice(range(gameSize))

@@ -33,5 +33,15 @@ The current records are:
 
 15: 212/225 ? best possible ?
 
-16:
+16: 241/256 ? best possible ?
+
+17: 269/289 ? best possible ?
+
+18: 304/324 ? best possible ?
+
+19: 340/361 ? best possible ?
+
+20: 377/400 ? best possible ?
+
+21: 416/441 ? best possible ?
 In general the algorithm thus far is not too inspired - just trying to improve by random choices with no backtracking or arc consistency checks. Will be adding more in the future.

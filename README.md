@@ -37,7 +37,7 @@ The current records are:
 
 17: 272/289 ? best possible ?
 
-18: 304/324 ? best possible ?
+18: 308/324 ? best possible ?
 
 19: 340/361 ? best possible ?
 

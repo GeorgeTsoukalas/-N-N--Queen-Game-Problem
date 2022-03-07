@@ -39,7 +39,7 @@ The current records are:
 
 18: 308/324 ? best possible ?
 
-19: 340/361 ? best possible ?
+19: 342/361 ? best possible ?
 
 20: 377/400 ? best possible ?
 

@@ -83,5 +83,5 @@ The current records are:
 
  -1  19  5  14  11  7  0  9  13  12  18  8  10  15  17  1  2  16  6  3 
 
-21: 416/441 ? best possible ?
+21: 419/441 ? best possible ?
 In general the algorithm thus far is not too inspired - just trying to improve by random choices with no backtracking or arc consistency checks. Will be adding more in the future.

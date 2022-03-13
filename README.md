@@ -15,7 +15,21 @@ The current records are:
 
 6: 32/36
 
-7: 44/49 ? Best possible ?
+7: 46/49 ? Best possible ?
+
+ 6  3  5  2  1  0  2 
+
+ 2  1  0  3  6  5  4 
+
+ 3  6  4  -1  -1  1  0 
+
+ 4  5  1  0  2  6  3 
+
+ 0  2  6  5  3  4  1 
+
+ 5  4  3  1  0  2  6 
+
+ 1  0  2  6  4  3  5 
 
 8: 58/64 ? Best possible ?
 

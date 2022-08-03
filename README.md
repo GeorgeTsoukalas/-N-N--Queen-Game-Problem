@@ -27,15 +27,25 @@ The current records are:
 10: 92/100 It is unknown whether or not this is best possible - though I would assume it isn't.
 
 11: 112/121 This is not best possible - you can get a perfect solution!
+
 12: 132/144 This is not best possible - you can get a perfect solution!
+
 13: 160/169 This is not best possible - you can get a perfect solution!
+
 14: 183/196 This is not best possible - you can get a perfect solution!
+
 15: 212/225 This is not best possible - you can get a perfect solution!
+
 16: 241/256 This is not best possible - you can get a perfect solution!
+
 17: 272/289 This is not best possible - you can get a perfect solution!
+
 18: 308/324 This is not best possible - you can get a perfect solution!
+
 19: 342/361 This is not best possible - you can get a perfect solution!
+
 20: 380/400 This is not best possible - you can get a perfect solution!
+
 21: 419/441 This is not best possible - you can get a perfect solution!
 
 The method in constructing examples here is not that inspired - there is far more structure going on then random choices of assigning squares will indicate. Further attempts to improve the ideas of Vasquez will help give extremal constructions for n = 8,9,10 - and may likely be generalized to showing that perfect solutions occur for sufficiently large n.

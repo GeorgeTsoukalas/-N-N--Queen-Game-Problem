@@ -20,7 +20,23 @@ The current records are:
 
 7: 49/49
 
-8: 58/64 It is unknown whether or not this is best possible - though I would assume it isn't.
+8: 60/64 It is unknown whether or not this is best possible. The placements are:
+
+0  -1  3  2  1  7  5  4 
+
+ 2  1  7  5  3  0  -1  6 
+
+ 7  5  4  1  2  6  3  0 
+
+ -1  3  0  6  5  4  1  2 
+
+ 6  4  1  3  7  2  0  5 
+
+ 5  7  2  0  4  3  6  1 
+
+ 4  0  5  7  6  1  2  3 
+
+ 1  2  6  4  0  5  7  -1 
 
 9: 74/81 It is unknown whether or not this is best possible - though I would assume it isn't.
 

@@ -3,7 +3,7 @@ For those who might stumble upon this page now - as it turns out this problem ha
 
 -------------------------------------
 When I was in high school I was given the following puzzle: given a $6 \times 6$ grid, you must fill each slot with a value from $\{\text{Empty}, 1, \dots, 6\}$. You must ensure that no column, row, or diagonal has two of the same value (except in the case of Empty). Determine
-$$ \max_{\text{Valid Configurations}} \#\{\text{Filled Spaces of Configurations}\} $$
+$ \max_{\text{Valid Configurations}} \#\{\text{Filled Spaces of Configurations}\} $
 You can notice that if a corner slot is filled with an integer, that integer can only appear at most $5$ times in the grid. Hence this maximum is at most 32, and constructing a suitable example establishes that the maximum is indeed $32$. What about for different grid sizes?
 
 The current records are:

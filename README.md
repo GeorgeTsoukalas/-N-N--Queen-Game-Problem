@@ -38,7 +38,7 @@ The current records are:
 
  2  7  0  4  6  5  3  1 
 
-9: 77/81 It is unknown whether or not this is best possible - though I would assume it isn't.s 
+9: 77/81 It is unknown whether or not this is best possible - though I would assume it isn't.
 
  2  4  5  3  7  8  0  1  6 
 

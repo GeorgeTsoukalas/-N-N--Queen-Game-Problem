@@ -1,5 +1,4 @@
-# -N-N--Queen-Game-Problem
-
+# $N^2$-Queen Problem
 For those who might stumble upon this page now - as it turns out this problem has been well studied. Indeed Polya noticed in 1918, in the regular n-Queen problem (along with the modular version), that if you have a n by n regular solution and an m by m modular solution, there is an mn by mn regular solutions. It has been long known that if gcd(n,6) = 1, then a perfect solution is possible. This is due to Laparewicz from 1912/1913. Vasquez in 2004 showed this condition was not necessary, and produced solutions for n =  12, 14, 15, 16, 18, 20, 21, 22, 24, 28, 32. It is still open as to whether this is a large N such that for n>=N you can always find a perfect solution. A survey on these results, on other variants on n-queen problems appears here (from 2009): https://www.sciencedirect.com/science/article/pii/S0012365X07010394. And if you stumble upon this problem, like I did, and find the perfect solution for n = 5 - you might be better served thinking of ways to generalize the regularity you see in your example - as indeed the 5 by 5 solution follows a very simple coloring scheme.
 
 -------------------------------------

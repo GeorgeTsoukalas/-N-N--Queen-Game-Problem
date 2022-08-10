@@ -39,7 +39,6 @@ The current records are:
  2  7  0  4  6  5  3  1 
 
 9: 77/81 It is unknown whether or not this is best possible - though I would assume it isn't.
-
  2  4  5  3  7  8  0  1  6 
 
  8  1  6  4  2  5  3  7  0 
@@ -58,7 +57,8 @@ The current records are:
 
  1  8  0  6  3  7  2  4  5 
 
-10: 92/100 It is unknown whether or not this is best possible - though I would assume it isn't.
+10: 92/100 It is unknown whether or not this is best possible - though I would assume it isn't. This is known to not have a perfect solution.
+
 
 11: 112/121 This is not best possible - you can get a perfect solution!
 
